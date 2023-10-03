@@ -26,7 +26,7 @@ const Billboard = ({ data }: Props) => {
             backgroundImage: `url(${data?.imageUrl})`,
             opacity: 0.5,
           }}
-          className='absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover rounded-xl'
+          className='absolute top-0 left-0 w-full h-full bg-no-repeat bg-cover bg-opacity-5 rounded-xl'
         ></div>
         <div className='absolute top-0 left-0 w-full h-full bg-black opacity-40 rounded-xl'></div>
         <div className='h-full w-full flex flex-col justify-center items-center text-center gap-y-8 relative'>

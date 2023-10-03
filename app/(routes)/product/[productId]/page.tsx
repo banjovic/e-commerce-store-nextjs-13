@@ -1,6 +1,7 @@
 import getProduct from "@/actions/get-product";
 import getProducts from "@/actions/get-products";
 import Gallery from "@/components/gallery";
+import InfoPage from "@/components/info";
 import ProductList from "@/components/product-list";
 import Container from "@/components/ui/container";
 
@@ -26,7 +27,7 @@ const ProductPage = async ({ params }: Props) => {
 
             <div className='mt-10 px-4 sm:mt-16 sm:px-0 lg:mt-0'>
               {/* info */}
-              Info
+              <InfoPage data={product} />
             </div>
           </div>
 
