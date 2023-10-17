@@ -10,6 +10,8 @@ import ProductCard from "@/components/ui/product-card";
 import Filter from "./components/filter";
 import MobileFilters from "./components/mobile-filters";
 
+export const revalidate = 0;
+
 interface Props {
   params: {
     categoryId: string;
