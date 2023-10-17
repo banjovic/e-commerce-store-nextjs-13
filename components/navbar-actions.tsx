@@ -6,6 +6,7 @@ import { ShoppingBag } from "lucide-react";
 
 import Button from "@/components/ui/button";
 import useCart from "@/hooks/use-cart";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 interface Props {}
 
@@ -34,6 +35,8 @@ const NavbarActions = (props: Props) => {
           {cart.items.length}
         </span>
       </Button>
+
+      {/* <ThemeToggle /> */}
     </div>
   );
 };
